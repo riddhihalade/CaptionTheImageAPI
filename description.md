@@ -11,7 +11,7 @@ Welcome to the **Image Caption Generator API**. This API leverages advanced tran
 #### How It Works:
 
 1. **Upload an Image**: Send a POST request with your image file to the `/predict/` endpoint.
-2. **Receive a Caption**: The API processes the image and returns a descriptive caption in JSON format.
+2. **Receive a Caption**: The API processes the provided image and returns a descriptive caption in JSON format as result.
 
 #### Example Usage:
 
