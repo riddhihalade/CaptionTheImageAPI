@@ -14,7 +14,7 @@ app = FastAPI(
     description=api_description,
     version="1.0.0",
     contact={
-        "name": "Riddhi Halade",
+        "name": "Riddhi U. Halade",
         "email": "haladeriddhi@gmail.com",
     }
 )
