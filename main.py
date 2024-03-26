@@ -10,7 +10,7 @@ with open("description.md", "r") as file:
     api_description = file.read()
 
 app = FastAPI(
-    title="Image Caption Generator API",
+    title="Image Captioning API",
     description=api_description,
     version="1.0.0",
     contact={
