@@ -30,7 +30,7 @@ def predict(file: UploadFile = File(...)):
         result = image_to_text([image])
         return ImageCaption(caption=result[0])
     except Exception as e:
-        raise HTTPException(status_code=400, detail="Invalid image file")
+        raise HTTPException(status_code=400, detail="Invalid Image Uploaded")
 
 @app.get("/", include_in_schema=False)
 def index():
