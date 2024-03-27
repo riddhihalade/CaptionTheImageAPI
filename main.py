@@ -12,7 +12,7 @@ with open("description.md", "r") as file:
 app = FastAPI(
     title="Image Captioning API",
     description=api_description,
-    version="1.0.0",
+    version="1.0.1",
     contact={
         "name": "Riddhi U. Halade",
         "email": "haladeriddhi@gmail.com",
